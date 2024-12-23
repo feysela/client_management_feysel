@@ -1,0 +1,23 @@
+nav ul {
+    list-style-type: none;
+    margin-top: 20;
+    padding: 0;
+    text-align: left;
+    text-decoration: none !important;
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+
+    background: #f9f9f9;
+    margin-right:20px;
+    border: 2px solid #ccc;
+}
+ul li a:active, 
+ul li a:focus {
+  background-color: #ccc; 
+}

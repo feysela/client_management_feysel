@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-root',
   templateUrl: './app.component.html',
-  standalone: false,
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Henna-Client-Management';
+  title = 'client-meeting-app';
 }
